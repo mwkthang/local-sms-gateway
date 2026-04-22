@@ -1,0 +1,26 @@
+{
+  "name": "local-sms-gateway",
+  "version": "1.0.0",
+  "description": "Local SMS gateway API for Termux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwkthang/local-sms-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mwkthang/local-sms-gateway/issues"
+  },
+  "homepage": "https://github.com/mwkthang/local-sms-gateway#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
